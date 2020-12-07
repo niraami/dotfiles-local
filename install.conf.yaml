@@ -1,0 +1,12 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
+- clean: ['~']
+
+
+- link:
+    ~/.config/polybar/modules/network.ini: config/polybar/modules/network.ini
+
