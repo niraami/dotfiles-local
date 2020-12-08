@@ -1,0 +1,11 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
+- link:
+    ~/.config/polybar/launch.sh:              config/polybar/launch.sh
+    ~/.config/polybar/modules/network.ini:    config/polybar/modules/network.ini
+    ~/.config/polybar/modules/bar_left.ini:   config/polybar/modules/bar_left.ini
+    ~/.config/polybar/modules/bar_right.ini:  config/polybar/modules/bar_right.ini
