@@ -1,0 +1,25 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
+- link:
+    ~/.gitconfig:
+    ~/.config/polybar/launch.sh:            config/polybar/launch.sh
+    ~/.config/polybar/modules:    
+      path: config/polybar/modules/*
+      glob: true
+
+- sudo:
+  - shell:
+    - cp system/etc/systemd/network/20-wired.network /etc/systemd/network/20-wired.network
+
+- yay:
+    # Core
+    - nvidia
+    # Tools/Apps
+    - vmware-workstation
+    - deluge-gtk          # Torrent client
+    - intellij-idea-community-edition
+    - code
