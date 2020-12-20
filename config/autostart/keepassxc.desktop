@@ -1,0 +1,9 @@
+[Desktop Entry]
+Exec=sh -c "/usr/bin/secret-tool lookup database master | /usr/bin/keepassxc --pw-stdin /home/niraami/Docs/kpass/master.kdbx"
+Name=keepassxc
+GenericName=Password Manager
+Comment=Launches KeePassXC & opens the master database
+TryExec=keepassxc
+Icon=keepassxc
+Terminal=false
+Type=Application

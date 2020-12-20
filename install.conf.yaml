@@ -5,7 +5,11 @@
       force: true
 
 - link:
+    ~/.gitconfig:
     ~/.config/polybar/launch.sh:              config/polybar/launch.sh
-    ~/.config/polybar/modules/network.ini:    config/polybar/modules/network.ini
-    ~/.config/polybar/modules/bar_left.ini:   config/polybar/modules/bar_left.ini
-    ~/.config/polybar/modules/bar_right.ini:  config/polybar/modules/bar_right.ini
+    ~/.config/polybar/modules:    
+      path: config/polybar/modules/*
+      glob: true
+    ~/.config/autostart:
+      glob: true
+      path: config/autostart/*
