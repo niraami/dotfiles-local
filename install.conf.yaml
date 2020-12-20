@@ -10,6 +10,9 @@
     ~/.config/polybar/modules:    
       path: config/polybar/modules/*
       glob: true
+    ~/.config/autostart:
+      glob: true
+      path: config/autostart/*
 
 - sudo:
   - shell:
@@ -22,4 +25,4 @@
     - vmware-workstation
     - deluge-gtk          # Torrent client
     - intellij-idea-community-edition
-    - code
+    - visual-studio-code-bin
