@@ -5,7 +5,6 @@
       force: true
 
 - link:
-    ~/.gitconfig:
     ~/.config/polybar/launch.sh:              config/polybar/launch.sh
     ~/.config/polybar/modules:    
       path: config/polybar/modules/*
@@ -13,3 +12,5 @@
     ~/.config/autostart:
       glob: true
       path: config/autostart/*
+    ~/.config/gtk-3.0/bookmarks:              config/gtk-3.0/bookmarks
+    ~/.config/flameshot/flameshot.ini:        config/flameshot/flameshot.ini
