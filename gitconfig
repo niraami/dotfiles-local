@@ -5,3 +5,7 @@
 	rebase = false
 [credential]
 	helper = /usr/lib/git-core/git-credential-libsecret
+[init]
+	defaultBranch = master
+[core]
+	autocrlf = input

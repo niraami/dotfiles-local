@@ -6,7 +6,8 @@
 
 - link:
     ~/.gitconfig:
-    ~/.config/polybar/launch.sh:            config/polybar/launch.sh
+    ~/.config/polybar/launch.sh:        config/polybar/launch.sh
+    ~/.config/flameshot/flameshot.ini:  config/flameshot/flameshot.ini
     ~/.config/polybar/modules:    
       path: config/polybar/modules/*
       glob: true
@@ -25,4 +26,3 @@
     - vmware-workstation
     - deluge-gtk          # Torrent client
     - intellij-idea-community-edition
-    - visual-studio-code-bin
