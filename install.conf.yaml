@@ -15,10 +15,6 @@
       glob: true
       path: config/autostart/*
 
-- sudo:
-  - shell:
-    - cp system/etc/systemd/network/20-wired.network /etc/systemd/network/20-wired.network
-
 - yay:
     # Core
     - nvidia

@@ -11,3 +11,4 @@ while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 # Launch polybar
 polybar -c ~/.config/polybar/config.ini main &
 polybar -c ~/.config/polybar/config.ini right &
+polybar -c ~/.config/polybar/config.ini left &
